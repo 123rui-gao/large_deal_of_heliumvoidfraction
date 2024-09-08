@@ -1,0 +1,17 @@
+SimulationType        MonteCarlo
+NumberOfCycles        10000
+PrintEvery            2000
+PrintPropertiesEvery  2000
+
+Forcefield            ExampleZeolitesForceField
+
+Framework 0
+FrameworkName {cif_name}
+CutOffVDW {cutoff}
+UnitCells {unitcell}
+ExternalTemperature 298.0
+
+Component 0 MoleculeName             helium
+            MoleculeDefinition       ExampleDefinitions
+            WidomProbability         1.0
+            CreateNumberOfMolecules  0
